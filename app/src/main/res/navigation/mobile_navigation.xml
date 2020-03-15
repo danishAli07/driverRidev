@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.driver.ridev.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.driver.ridev.ui.gallery.RideDetailsFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_ride_details" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.driver.ridev.ui.slideshow.EarnFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_earn" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.driver.ridev.ui.tools.SettingsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.driver.ridev.ui.share.ReferAndEarnFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_refer_earn" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.driver.ridev.ui.send.FAQFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_faq" />
+</navigation>
