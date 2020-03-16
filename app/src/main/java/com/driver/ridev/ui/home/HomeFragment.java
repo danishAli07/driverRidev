@@ -42,7 +42,7 @@ public class HomeFragment extends Fragment {
 
     }
 
-    public View onCreateView(@NonNull LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
+  /*  public View onCreateView(@NonNull LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
         homeViewModel = ViewModelProviders.of(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
@@ -54,7 +54,7 @@ public class HomeFragment extends Fragment {
 
                 mMap.clear(); //clear old markers
 
-                CameraPosition googlePlex = CameraPosition.builder()
+              *//*  CameraPosition googlePlex = CameraPosition.builder()
                         .target(new LatLng(37.4219999,-122.0862462))
                         .zoom(10)
                         .bearing(0)
@@ -75,7 +75,7 @@ public class HomeFragment extends Fragment {
 
                 mMap.addMarker(new MarkerOptions()
                         .position(new LatLng(37.3092293,-122.1136845))
-                        .title("Captain America"));
+                        .title("Captain America"));*//*
             }
         });
 
@@ -83,7 +83,7 @@ public class HomeFragment extends Fragment {
 
         return root;
     }
-
+*/
     private BitmapDescriptor bitmapDescriptorFromVector(Context context, int vectorResId) {
         Drawable vectorDrawable = ContextCompat.getDrawable(context, vectorResId);
         vectorDrawable.setBounds(0, 0, vectorDrawable.getIntrinsicWidth(), vectorDrawable.getIntrinsicHeight());

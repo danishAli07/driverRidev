@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1011450003704",
+    "firebase_url": "https://ridevtest.firebaseio.com",
+    "project_id": "ridevtest",
+    "storage_bucket": "ridevtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011450003704:android:67f5b1e80afed5b955fb0d",
+        "android_client_info": {
+          "package_name": "com.driver.ridev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011450003704-gpe2ab71oi1adut0sljfft7r839tcjbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXp9QaototD82uuSC9Kcey9CBZO1fXnLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011450003704-gpe2ab71oi1adut0sljfft7r839tcjbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
