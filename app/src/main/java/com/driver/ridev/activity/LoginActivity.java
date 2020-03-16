@@ -121,12 +121,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         finish();
     }
 
-    @Override
+   /* @Override
     public void onStart() {
         super.onStart();
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
         onLoggedIn(account);
-    }
+    }*/
 
     private void callLoginApi() {
         if (!mEmailET.getText().toString().isEmpty()) {
